@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 
 // Redis client setup
 const redisClient = redis.createClient({
-    url: 'redis://red-crmh9ilumphs739eaa9g', // Your Redis URL
+    redis: 'red-culdn8qn91rc73eamf70:6379', // Your Redis URL
 });
 
 redisClient.connect().catch(console.error); // Connect to Redis
